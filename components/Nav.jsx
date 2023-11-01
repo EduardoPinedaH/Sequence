@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Nav = () => {
     return (
         <nav className=' bg-black flex gap-5 pt-10 lg:pt-24 pr-10 justify-end font-bold text-xs lg:text-lg'>
