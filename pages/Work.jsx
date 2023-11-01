@@ -1,3 +1,7 @@
+"use client";
+
+import { CldVideoPlayer } from "next-cloudinary";
+import Image from "next/image";
 import React from "react";
 
 const Work = () => {
@@ -13,8 +17,24 @@ const Work = () => {
                             NUESTRO TRABAJO
                         </h2>
                         <div className='flex flex-col gap-5 lg:gap-10 xl:max-w-[520px]'>
-                            <div className=' bg-gray-100 w-1/3s h-[14rem] border-2 border-blue-500'></div>
-                            <div className=' bg-gray-100 w-1/3s h-[12rem] border-2 border-blue-500'></div>
+                            <div className=' bg-gray-100 w-[30rem] h-auto '>
+                                <iframe
+                                    src='https://player.cloudinary.com/embed/?public_id=sequence%2Fvid1&cloud_name=dysfrid9h&player[muted]=false&player[width]=640&player[height]=360&player[floatingWhenNotVisible]=right&player[hideContextMenu]=true&player[loop]=true'
+                                    width='1920'
+                                    height='1080 '
+                                    style={{
+                                        height: "auto",
+                                        width: "100%",
+                                        aspectRatio: "1920/1080",
+                                        cursor: "pointer",
+                                    }}
+                                    allow='autoplay; fullscreen; encrypted-media; picture-in-picture'
+                                    allowfullscreen
+                                    frameborder='0'
+                                    className='border-2 border-blue-500'
+                                ></iframe>
+                            </div>
+                            <div className=' bg-gray-100 w-full h-[12rem] border-2 border-blue-500'></div>
                         </div>
                     </div>
 

@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.12.0",
     "next": "14.0.1",
+    "next-cloudinary": "^5.1.0",
     "react": "^18",
     "react-dom": "^18"
   },
