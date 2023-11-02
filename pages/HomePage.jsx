@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <section
             id='homepage'
-            className='max-container padding-container flex flex-col xl:flex-row min-h-screen'
+            className='max-container padding-container flex flex-col xl:flex-row'
         >
             <div className='relative flex flex-1 flex-col xl:w-1/2'>
                 <iframe
