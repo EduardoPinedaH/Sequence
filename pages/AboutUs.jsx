@@ -6,7 +6,7 @@ const AboutUs = () => {
             id='aboutus'
             className='flex items-center justify-center flex-col'
         >
-            <div className='px-10 lg:px-44 3xl:px-0 mx-auto max-w-[1440px] w-full md:pb-24 md:pt-56'>
+            <div className='px-10 lg:px-44 3xl:px-0 mx-auto max-w-[1440px] w-full pt-10 md:pb-24 md:pt-56'>
                 <div className='flex flex-wrap justify-between gap-5 lg:gap-10'>
                     <h2 className='text-lg font-semibold leading-[120%] lg:text-5xl lg:font-semibold lg:leading-[120%] xl:max-w-[390px]'>
                         Somos una agencia creativa especializada en productos
