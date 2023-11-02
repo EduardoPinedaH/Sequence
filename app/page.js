@@ -7,7 +7,7 @@ import Services from "../pages/Services";
 export default function Home() {
     return (
         <>
-            <Nav />
+            <Nav className='hidden md:block' />
             <HomePage />
             <AboutUs />
             <Work />

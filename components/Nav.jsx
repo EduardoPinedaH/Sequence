@@ -1,6 +1,6 @@
 const Nav = () => {
     return (
-        <nav className=' bg-black flex gap-5 pb-14 pt-10 lg:pt-24 pr-10 justify-end font-bold text-xs lg:text-lg z-[99999]'>
+        <nav className=' bg-black flex gap-5 pb-14 pt-10 lg:pt-24 pr-10 justify-end font-light text-xs lg:text-lg z-[99999] '>
             <a href='#homepage' className='text-gray-100'>
                 Bienvenido
             </a>
